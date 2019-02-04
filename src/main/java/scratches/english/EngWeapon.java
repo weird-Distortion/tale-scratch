@@ -12,6 +12,6 @@ public enum EngWeapon implements EngScratch {
 
     @Override
     public String toString() {
-        return this.weapon;
+        return "the weapon is " + this.weapon;
     }
 }

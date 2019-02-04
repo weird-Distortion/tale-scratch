@@ -10,13 +10,19 @@ import java.util.Random;
 
 import static java.util.Arrays.asList;
 
-public class EngPicker extends Picker{
+public class EngPicker extends Picker {
+
+    private List<EngScratch[]> scratches;
+
+    public EngPicker() {
+        this.scratches =
+                asList(EngHeroes.values(), EngLocations.values(), EngWeapon.values());
+    }
 
     @Override
     public void printScratch() {
-        System.out.println(pickElement(EngHeroes.values()));
-        System.out.println(pickElement(EngLocations.values()));
-        System.out.println(pickElement(EngWeapon.values()));
+        scratches.forEach(scratch ->
+                System.out.println(pickElement(scratch)));
     }
 
     private String pickElement(EngScratch[] array) {

@@ -12,6 +12,6 @@ public enum EngHeroes implements EngScratch {
 
     @Override
     public String toString() {
-        return this.hero;
+        return "The hero is " + this.hero;
     }
 }

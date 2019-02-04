@@ -12,6 +12,6 @@ public enum EngLocations implements EngScratch {
 
     @Override
     public String toString() {
-        return this.loc;
+        return "The location is " + this.loc;
     }
 }
