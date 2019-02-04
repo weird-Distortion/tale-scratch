@@ -1,4 +1,6 @@
 package scratches.english;
 
-public interface EngScratch {
+import scratches.Scratch;
+
+public interface EngScratch extends Scratch {
 }

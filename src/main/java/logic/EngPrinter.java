@@ -6,15 +6,15 @@ import scratches.english.EngScratch;
 import scratches.english.EngWeapon;
 
 import java.util.List;
-import java.util.Random;
 
 import static java.util.Arrays.asList;
 
-public class EngPicker extends Picker {
+public class EngPrinter extends Printer {
 
+    private Picker picker = new Picker();
     private List<EngScratch[]> scratches;
 
-    public EngPicker() {
+    public EngPrinter() {
         this.scratches =
                 asList(EngHeroes.values(), EngLocations.values(), EngWeapon.values());
     }
@@ -22,15 +22,6 @@ public class EngPicker extends Picker {
     @Override
     public void printScratch() {
         scratches.forEach(scratch ->
-                System.out.println(pickElement(scratch)));
-    }
-
-    private String pickElement(EngScratch[] array) {
-        List<EngScratch> testList = asList(array);
-
-        Random random = new Random();
-        int index = random.nextInt(testList.size());
-
-        return testList.get(index).toString();
+                System.out.println(picker.pickElement(scratch)));
     }
 }

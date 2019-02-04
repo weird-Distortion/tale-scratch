@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-//        String language = scanner.nextLine().trim();
+        String language = scanner.nextLine().trim();
 
-        BasicEnum.valueOf("eng".toUpperCase()).print();
+        BasicEnum.valueOf(language.toUpperCase()).print();
 
     }
 }

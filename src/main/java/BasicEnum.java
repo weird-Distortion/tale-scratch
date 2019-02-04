@@ -1,20 +1,20 @@
-import logic.EngPicker;
-import logic.Picker;
-import logic.RusPicker;
+import logic.EngPrinter;
+import logic.Printer;
+import logic.RusPrinter;
 
 public enum BasicEnum {
 
     ENG("Welcome") {
         @Override
         public void print() {
-            Picker engPicker = new EngPicker();
+            Printer engPicker = new EngPrinter();
             engPicker.printScratch();
         }
     },
     RUS("Добро пожаловать") {
         @Override
         public void print() {
-            Picker rusPicker = new RusPicker();
+            Printer rusPicker = new RusPrinter();
             rusPicker.printScratch();
         }
     };

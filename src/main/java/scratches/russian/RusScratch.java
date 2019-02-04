@@ -1,4 +1,6 @@
 package scratches.russian;
 
-public interface RusScratch {
+import scratches.Scratch;
+
+public interface RusScratch extends Scratch {
 }
