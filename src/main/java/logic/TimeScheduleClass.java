@@ -21,7 +21,7 @@ public class TimeScheduleClass {
 
         Timer timer = new Timer();
 
-        long delay = 5000;
+        long delay = 1500000;
 
         timer.schedule(warningTask, delay);
 
@@ -42,7 +42,7 @@ public class TimeScheduleClass {
         };
 
         Timer timer = new Timer();
-        long delay = 2000;
+        long delay = 300000;
 
         timer.schedule(timerTask, delay);
     }
