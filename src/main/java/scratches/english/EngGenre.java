@@ -1,6 +1,6 @@
 package scratches.english;
 
-public enum Genre {
+public enum EngGenre implements EngScratch{
     CRIME("Crime/detective"),
     FAIRY_TALE("Fairy tale"),
     FANTASY("Fantasy"),
@@ -19,7 +19,7 @@ public enum Genre {
 
     private String genre;
 
-    Genre(String genre) {
+    EngGenre(String genre) {
         this.genre = genre;
     }
 

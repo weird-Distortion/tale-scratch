@@ -1,8 +1,6 @@
 package scratches.english;
 
-import scratches.Scratch;
-
-public enum EngCharacterAmount implements Scratch {
+public enum EngCharacterAmount implements EngScratch {
     ZERO("0"),
     ONE("1"),
     TWO("2"),
