@@ -1,7 +1,7 @@
 package printers;
 
 import logic.Picker;
-import scratches.english.EngHeroes;
+import scratches.english.EngTime;
 import scratches.english.EngLocations;
 import scratches.english.EngScratch;
 import scratches.english.EngWeapon;
@@ -17,7 +17,7 @@ public class EngPrinter extends Printer {
 
     public EngPrinter() {
         this.scratches =
-                asList(EngHeroes.values(), EngLocations.values(), EngWeapon.values());
+                asList(EngTime.values(), EngLocations.values(), EngWeapon.values());
     }
 
     @Override
