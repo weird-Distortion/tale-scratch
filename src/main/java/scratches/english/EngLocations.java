@@ -1,8 +1,8 @@
 package scratches.english;
 
 public enum EngLocations implements EngScratch {
-    WASTELAND("russia"),
-    DESERT("usa"),
+    WASTELAND("Wasteland"),
+    DESERT("Desert"),
     SMALL_TOWN("Small town"),
     BIG_CITY("Big city"),
     ABANDONED_HOUSE("Abandoned house"),

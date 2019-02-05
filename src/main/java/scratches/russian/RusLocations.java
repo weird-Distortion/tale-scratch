@@ -1,17 +1,36 @@
 package scratches.russian;
 
-public enum RusLocations implements RusScratch {
-    RUSSIA("россия"),
-    USA("сша");
+import scratches.english.EngScratch;
 
-    private String loc;
+public enum RusLocations implements RusScratch {
+    WASTELAND("Пустошь"),
+    DESERT("Пустыня"),
+    SMALL_TOWN("Небольшой городок"),
+    BIG_CITY("Мегаполис"),
+    ABANDONED_HOUSE("Заброшенный дом"),
+    OFFICE("Офис"),
+    GLADE("Поляна"),
+    FOREST("Лес"),
+    SCHOOL("Учебное заведение"),
+    HOUSE("Дом"),
+    GYM("Тренажерный зал"),
+    STORE("Магазин/торговый центр и тд"),
+    ELEVATOR("Лифт"),
+    ARCTIC("Арктика/холод"),
+    FABRIC("Завод"),
+    SWAMP("Болото"),
+    RADIOACTIVE_WASTELAND("Радиоактивная пустошь"),
+    KINGDOM("Королевство"),
+    BATTLEFIELD("Поле боя");
+
+    private String location;
 
     RusLocations(String loc) {
-        this.loc = loc;
+        this.location = loc;
     }
 
     @Override
     public String toString() {
-        return this.loc;
+        return "Локация: " + this.location;
     }
 }

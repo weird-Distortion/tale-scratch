@@ -1,9 +1,7 @@
 package printers;
 
 import logic.Picker;
-import scratches.russian.RusHeroes;
-import scratches.russian.RusLocations;
-import scratches.russian.RusScratch;
+import scratches.russian.*;
 
 import java.util.List;
 
@@ -16,7 +14,10 @@ public class RusPrinter extends Printer {
 
     public RusPrinter() {
         this.scratches =
-                asList(RusHeroes.values(), RusLocations.values());
+                asList(RusCharacterAmount.values(), RusMainCharacter.values(),
+                        RusMainCharacter.values(), RusLocations.values(),
+                        RusCountryType.values(), RusTime.values(),
+                        RusGenre.values());
     }
 
     @Override

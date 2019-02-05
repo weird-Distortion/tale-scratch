@@ -14,7 +14,7 @@ public enum EngMainCharacter implements EngScratch {
     GOBLIN("Goblin"),
     GOD("God"),
     WRITER("Writer"),
-    PLUMBER("Plumber"),
+    WORKER("Worker"),
     ATHLETE("Athlete"),
     DEVELOPER("Developer"),
     GAMER("Gamer"),
