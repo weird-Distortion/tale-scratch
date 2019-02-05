@@ -1,6 +1,6 @@
-import logic.EngPrinter;
-import logic.Printer;
-import logic.RusPrinter;
+import printers.EngPrinter;
+import printers.Printer;
+import printers.RusPrinter;
 
 public enum BasicEnum {
 

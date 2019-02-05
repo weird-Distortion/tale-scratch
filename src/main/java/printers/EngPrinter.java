@@ -1,5 +1,6 @@
-package logic;
+package printers;
 
+import logic.Picker;
 import scratches.english.EngHeroes;
 import scratches.english.EngLocations;
 import scratches.english.EngScratch;

@@ -1,5 +1,6 @@
-package logic;
+package printers;
 
+import logic.Picker;
 import scratches.russian.RusHeroes;
 import scratches.russian.RusLocations;
 import scratches.russian.RusScratch;

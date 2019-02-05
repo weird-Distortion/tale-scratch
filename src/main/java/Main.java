@@ -1,3 +1,5 @@
+import logic.TimeScheduleClass;
+
 import java.util.Scanner;
 
 public class Main {
@@ -7,6 +9,9 @@ public class Main {
         String language = scanner.nextLine().trim();
 
         BasicEnum.valueOf(language.toUpperCase()).print();
+
+        TimeScheduleClass timer = new TimeScheduleClass();
+        timer.activateTimer();
 
     }
 }
