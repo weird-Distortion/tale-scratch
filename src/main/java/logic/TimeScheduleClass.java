@@ -6,11 +6,12 @@ import java.util.TimerTask;
 public class TimeScheduleClass {
 
     public void activateTimer() {
+        printGreatingMsg();
         activateWarning();
         activateFinish();
     }
 
-    private void activateWarning()  {
+    private void activateWarning() {
 
         TimerTask warningTask = new TimerTask() {
             @Override
@@ -45,6 +46,10 @@ public class TimeScheduleClass {
         long delay = 300000;
 
         timer.schedule(timerTask, delay);
+    }
+
+    private void printGreatingMsg() {
+        System.out.println("\nYou have 30 min!");
     }
 
 }

@@ -1,0 +1,215 @@
+english {
+    <Number of characters>
+        <1>
+        <2>
+        <3>
+        <4>
+        <5>
+    </Number of characters>
+    <Culture type>
+        <USA>
+        <Russia>
+        <China>
+        <United Kingdom>
+        <Netherlands>
+        <France>
+        <Italy>
+        <Spain>
+        <Portugal>
+        <Germany>
+        <Poland>
+        <Czech Republic>
+        <Romain>
+        <Hungary>
+        <India>
+        <Australia>
+        <Belarus>
+        <Egypt>
+        <Libia>
+        <Syria>
+        <Georgia>
+        <Ukraine>
+        <Africa>
+    </Culture type>
+    <Genre>
+        <Crime/detective>
+        <Fairy tale>
+        <Fantasy>
+        <Horror>
+        <Humor>
+        <Mystery>
+        <Sci-Fi>
+        <Western>
+        <Thriller>
+        <Adventure>
+        <Children>
+        <Steampunk>
+        <Cyperpunk>
+        <Post apocaliptic>
+        <Space opera>
+    </Genre>
+    <Location>
+        <Wasteland>
+        <Desert>
+        <Small town>
+        <Big city>
+        <Abandoned house>
+        <Office>
+        <Glade>
+        <Forest>
+        <School>
+        <House>
+        <Gym>
+        <Store>
+        <Elevator>
+        <Arctic>
+        <Fabric>
+        <Swamp>
+        <Radioactive wasteland>
+        <Kingdom>
+        <Battlefield>
+    </Location>
+    <Main character>
+        <Human>
+        <Cyborg>
+        <Dwarf>
+        <Artificial intelligence>
+        <Child>
+        <Elf>
+        <Alien>
+        <Nerd>
+        <Killer>
+        <Thief>
+        <Goblin>
+        <God>
+        <Writer>
+        <Worker>
+        <Athlete>
+        <Developer>
+        <Gamer>
+        <Teacher>
+        <Professor>
+        <Knight>
+        <Vampire>
+        <Zombie>
+        <Wizard>
+        <Lawyer>
+        <King>
+        <Government>
+    </Main character>
+    <Time>
+        <Deep past>
+        <Past>
+        <Nowadays>
+        <Future>
+        <Deep future>
+    </Time>
+},
+russian {
+    <Количество персонажей>
+        <1>
+        <2>
+        <3>
+        <4>
+        <5>
+    </Количество персонажей>
+    <Тип культуры>
+        <США>
+        <Россия>
+        <Китай>
+        <Япония>
+        <Соединенное Королевство>
+        <Голландия>
+        <Франция>
+        <Италия>
+        <Испания>
+        <Португалия>
+        <Германия>
+        <Польша>
+        <Чехия>
+        <Румыния>
+        <Венгрия>
+        <Индия>
+        <Австралия>
+        <Беларусь>
+        <Египет>
+        <Ливия>
+        <Сирия>
+        <Грузия>
+        <Украина>
+        <Африканская страна>
+    </Тип культуры>
+    <Жанр>
+        <Криминал/Детектив>
+        <Сказка>
+        <Фэнтези>
+        <Ужасы>
+        <Юмор>
+        <Мистика>
+        <Псевдонаучная фантастика>
+        <Вестерн>
+        <Триллер>
+        <Приключения>
+        <Детская литература>
+        <Стимпанк>
+        <Киберпанк>
+        <Пост-апокалипсис>
+        <Космическая опера>
+    </Жанр>
+    <Локация>
+        <Пустошь>
+        <Пустыня>
+        <Небольшой городок>
+        <Мегаполис>
+        <Заброшенный дом>
+        <Офис>
+        <Поляна>
+        <Лес>
+        <Учебное заведение>
+        <Дом>
+        <Тренажерный зал>
+        <Магазин/торговый центр и тд>
+        <Лифт>
+        <Арктика/холод>
+        <Завод>
+        <Болото>
+        <Радиоактивная пустошь>
+        <Королевство>
+        <Поле боя>
+    </Локация>
+    <Главный герой>
+        <Человек>
+        <Киборг>
+        <Гном>
+        <Искусственный интеллект>
+        <Ребенок>
+        <Эльф>
+        <Пришелец>
+        <Ботан/задрот>
+        <Убийца>
+        <Вор>
+        <Гоблин>
+        <Бог>
+        <Писатель>
+        <Рабочий>
+        <Спортсмен>
+        <Разработчик>
+        <Игрок>
+        <Учитель>
+        <Профессор>
+        <Рыцарь>
+        <Вампир>
+        <Зомби>
+        <Волшебник>
+        <Адвокат>
+        <Король/Император>
+        <Правительство>
+    </Главный герой>
+    <Период во времени>
+        <Далекое прошлое>
+        <Прошлое>
+        <Современность>
+        <Будущее>
+        <Далекое будущее>
+    </Период во времени>
+}

@@ -1,20 +1,15 @@
 package logic;
 
-import scratches.Scratch;
-
 import java.util.List;
 import java.util.Random;
 
-import static java.util.Arrays.asList;
-
 public class Picker {
 
-    public String pickElement(Scratch[] array) {
-        List<Scratch> testList = asList(array);
+    public String pickElement(List<String> list) {
 
         Random random = new Random();
-        int index = random.nextInt(testList.size());
+        int index = random.nextInt(list.size());
 
-        return testList.get(index).toString();
+        return list.get(index);
     }
 }
