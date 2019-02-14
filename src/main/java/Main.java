@@ -8,6 +8,7 @@ public class Main {
     private static final String file = "data.txt";
 
     public static void main(String[] args) {
+
         System.out.println("Welcome!\nInsert language");
         UserInput userInput = new UserInput();
 

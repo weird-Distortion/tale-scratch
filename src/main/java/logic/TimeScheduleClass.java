@@ -5,10 +5,14 @@ import java.util.TimerTask;
 
 public class TimeScheduleClass {
 
+    private SoundMaker soundMaker = new SoundMaker();
+
     public void activateTimer() {
         printGreatingMsg();
         activateWarning();
+        soundMaker.playWarningSound();
         activateFinish();
+        soundMaker.playWarningSound();
     }
 
     private void activateWarning() {
